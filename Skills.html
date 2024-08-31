@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My (CV) AR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* خلفية رمادية فاتحة */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #e0e0e0; /* لون التاتنيوم */
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            border: 5px solid #333;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .profile-image:hover {
+            transform: scale(1.1);
+        }
+        .skill-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skill-list li {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        .skill-list li:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            transform: translateY(-5px);
+        }
+        .skill-list li h2 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+        .skill-list li p {
+            margin: 0;
+            color: #666;
+        }
+        h2{
+            direction: rtl;
+        }
+
+        p{
+            direction: rtl;
+        }
+    </style>
+</head>                                                                                                                                                  
+<body>
+    <div class="container">
+        <h1>مهاراتي في العمل</h1>
+        <img src="https://via.placeholder.com/150" alt="صورتي" class="profile-image">
+        <ul class="skill-list">
+            <li>
+                <h2>الاسم:</h2>
+                <p>محمد الحسم محمد ضياء مصطفي سيد احمد الملاح</p>
+            </li>
+            <li>
+                <h2>العمر :</h2>
+                <p>18 عام
+                    
+                </p>
+            </li>
+            <li>
+                <h2>العنوان :</h2>
+                <p>الرياض - السويدي الغربي - حي الزهره</p>
+            </li>
+            <li>
+                <h2>رقم الهاتف :</h2>
+                <p>0537496263 - 01008561492</p>
+            </li>
+            <li>
+                <h2>لغات البرمجه التي تعلمتها: </h2>
+                <p>HTML - CSS</p>
+            </li>
+            <li>
+                <h2>ادوات العمل :</h2>
+                <p>visual studeo code</p>
+            </li>
+            <li>
+                <h2>الشهادات :</h2>
+                <p>حاصل على شهاده من منصه ischool لتعلم البرمجه</p>
+            </li>
+            <li>
+                <h2>اللغات :</h2>
+                <p>اللغه العربيه - اللغه الانجليزيه</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
